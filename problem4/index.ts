@@ -24,7 +24,7 @@ function sum_to_n_a(n: number): number {
 }
 
 function sum_to_n_b(n: number): number {
-	// loop from 1 to n
+    // loop from 1 to n
     // complexity is O(n)
 
     const hrtime = process.hrtime();
@@ -47,7 +47,7 @@ function sumByRange(start: number, end: number): number {
 
 function sum_to_n_c(n: number): number {
     // recursive method
-    // complexity is Log(n)
+    // complexity is O(n)
 
 
     // const hrtime = process.hrtime();
