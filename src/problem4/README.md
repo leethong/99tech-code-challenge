@@ -1,4 +1,4 @@
-# PROBLEM 4
+# Problem 4: Three ways to sum to n
 
 ## Task
 
