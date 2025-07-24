@@ -22,4 +22,7 @@ Provide 3 unique implementations of the following function in TypeScript.
 2. Install all dependencies packages: `yarn`
 3. Run the solution: `ts-node index.ts`
 
+**Note**: You can change the number n in the `main` function to verify other cases.
+
+
 
