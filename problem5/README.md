@@ -72,3 +72,8 @@ Beside that, I use the eslint and prettier for formating.
     curl --location 'http://localhost:3001/v1/employees?email=thong'
     ```
 
+5. Delete an employee (soft delete)
+    ```
+    curl --location --request DELETE 'http://localhost:3001/v1/employees/f771ae5f-88e0-4185-84e8-e41899d551b7'
+    ```
+    
