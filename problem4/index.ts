@@ -13,8 +13,7 @@ function validateInput(n: number): void{
     }
 }
 function sum_to_n_a(n: number): number {
-	// use the mathematical formula s= n*(n+1)/2, the best solution
-
+    // use the mathematical formula s= n*(n+1)/2, the best solution
 
     // const hrtime = process.hrtime();
     const s = n*(n+1)/2
