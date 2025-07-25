@@ -54,7 +54,7 @@ Beside that, I use the eslint and prettier for formating.
     ```
 2. Update employee
     ```
-    curl --location --request PUT 'http://localhost:3001/v1/employees/{{employeeId}}' \
+    curl --location --request PUT 'http://localhost:3000/v1/employees/{{employeeId}}' \
     --header 'Content-Type: application/json' \
     --data '{
         "name": "thong 2",
@@ -64,15 +64,15 @@ Beside that, I use the eslint and prettier for formating.
 
 3. Get employee by ID
     ```
-    curl --location 'http://localhost:3001/v1/employees/{{employeeId}}'
+    curl --location 'http://localhost:3000/v1/employees/{{employeeId}}'
     ```
 
 4. Get list employees with filter
     ```
-    curl --location 'http://localhost:3001/v1/employees?email=thong'
+    curl --location 'http://localhost:3000/v1/employees?email=thong'
     ```
 
 5. Delete an employee (soft delete)
     ```
-    curl --location --request DELETE 'http://localhost:3001/v1/employees/{{employeeId}}'
+    curl --location --request DELETE 'http://localhost:3000/v1/employees/{{employeeId}}'
     ```
